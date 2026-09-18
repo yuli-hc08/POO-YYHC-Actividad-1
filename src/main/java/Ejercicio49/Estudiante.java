@@ -9,7 +9,6 @@ public class Estudiante {
         this.nota = nota;
     }
 
-    // Método corregido: Recibe la referencia del otro objeto como parámetro
     public void compararNotaCon(Estudiante otroEstudiante) {
         if (this.nota > otroEstudiante.nota) {
             System.out.println(this.nombre + " tiene una nota mayor que " + otroEstudiante.nombre);
